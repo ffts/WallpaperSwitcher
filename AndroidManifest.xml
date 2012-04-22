@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="ffts.android.WallpaperSwitcher"
+      android:versionCode="0"
+      android:versionName="v0.2.0">
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
+        <service
+            android:label="@string/app_name"
+            android:name=".WallpaperSwitcher"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/wallpaper" />
+        </service>
+        <activity
+            android:name="ffts.android.WallpaperSwitcher.WallpaperSwitcherSettings"
+            android:exported="true">
+        </activity>
+        <activity 
+            android:name=".SelectDir">
+        </activity>
+
+    </application>
+</manifest>

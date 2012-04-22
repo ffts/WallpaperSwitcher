@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WallpaperSwitcher</string>
+    <string name="up_one_level">…</string>
+    <string name="none"> </string>
+    <string name="selectcurdir">选择当前路径</string>
+    <string name="have_a_try">用手指左右滑动试试</string>
+    <string name="please_select">点击选择壁纸所在的路径</string>
+</resources>

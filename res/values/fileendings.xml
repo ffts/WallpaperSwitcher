@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<array name="fileEndingImage">
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.png</item>
+        <item>.bmp</item>
+        <item>.gif</item>
+</array>
+
+
+</resources>
